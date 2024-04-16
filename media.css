@@ -1,0 +1,250 @@
+@media screen and (max-width: 480px) {
+    .card1{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+    .card1 .content{
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .card2{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        padding: 40px;
+    }
+    .card3{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        grid-row-end: 7;
+    }
+    .card4{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 9;
+        grid-row-end: 12;
+    }
+    .card4 .content{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .card4 .content .info img{
+        top: 4px;
+        left: -360px;
+        width: 300%;
+    }
+    .card5{
+        padding: 40px;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 16;
+        grid-row-end: 20;
+    }
+    .card6{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 7;
+        grid-row-end: 9;
+    }
+    .card7{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 14;
+        grid-row-end: 16;
+    }
+    .card8{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 12;
+        grid-row-end: 14;
+    }
+    .card9{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 20;
+        grid-row-end: 22;
+    }
+    .card10{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 22;
+        grid-row-end: 23;
+    }
+    .card10 .content .info{
+        position: relative;
+        width: 100%;
+        left: -70px;
+    }
+    .card10 .content{
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+
+        .card1{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        grid-row-end: 7;
+    }
+    .card2{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+    .card3{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 7;
+        grid-row-end: 8;
+    }
+    .card4{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 8;
+        grid-row-end: 9;
+    }
+    .card4 .content .info img{
+        top: 5%;
+
+    }
+    .card5{
+        padding: 40px;
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 9;
+        grid-row-end: 15;
+    }
+    .card6{
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 7;
+        grid-row-end: 8;
+    }
+    .card7{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 12;
+        grid-row-end: 15;
+    }
+    .card7 .content .images img{
+        position: absolute;
+        top: 68%;
+        width: 99%;
+        left: -40px;
+    }
+    .card8{
+        background-color:var(--color-10);
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 9;
+        grid-row-end: 12;
+    }
+    .card9{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 15;
+        grid-row-end: 17;
+    }
+    .card10{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 17;
+        grid-row-end: 18;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .card1{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        grid-row-end: 7;
+    }
+    .card2{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+    .card3{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 7;
+        grid-row-end: 8;
+    }
+    .card4{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 8;
+        grid-row-end: 9;
+    }
+    .card4 .content .info img{
+        top: 4px;
+
+    }
+    .card5{
+        padding: 40px;
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 9;
+        grid-row-end: 15;
+    }
+    .card6{
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 7;
+        grid-row-end: 8;
+    }
+    .card7{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 12;
+        grid-row-end: 15;
+    }
+    .card7 .content .images img{
+        position: absolute;
+        top: 48%;
+        left: -100px;
+    }
+    .card8{
+        background-color:var(--color-10);
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 9;
+        grid-row-end: 12;
+    }
+    .card9{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 15;
+        grid-row-end: 17;
+    }
+    .card10{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 17;
+        grid-row-end: 18;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    .card4 .content .info img{
+        top: 4px;
+    }
+}
+
